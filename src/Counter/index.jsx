@@ -13,21 +13,14 @@ const Counter = () => {
     }
   }
   return (
-    <div style={{
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      height: '100vh',
-      flexDirection: 'column'
-
+    <div style = {{
+      display:'flex',
+      justifyContent:'center',
+      flexDirection:'column',
+      alignItems:'center'
     }}>
       <h2>Counter: {count}</h2>
-      <div style = {{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        gap:10
-      }}>
+      <div>
       <button onClick={handleIncreament}>Increment</button>
       <button onClick={handleDecrement}>Decrement</button>
       </div>

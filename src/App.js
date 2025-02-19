@@ -6,10 +6,16 @@ import Toggle from './ToggleView';
 
 const App = () => {
   return (
-      // <Counter />
-      // <Parent/>
-      // <Todo/>
+    <div style = {{
+      display:'flex',
+      justifyContent:'center',
+      flexDirection:'column'
+    }}>
+      <Counter />
+      <Parent/>
+      <Todo/>
       <Toggle/>
+      </div>
   )
 }
 

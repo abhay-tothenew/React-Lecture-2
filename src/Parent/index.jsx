@@ -12,13 +12,12 @@ class Parent extends Component{
 
     render(){
         return(
-            <div style = {{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100vh',
-                flexDirection: 'column'
-            }}>
+            <div  style = {{
+                display:'flex',
+                justifyContent:'center',
+                flexDirection:'column',
+                alignItems:'center'
+              }}>
                 <h1>{this.state.message}</h1>
             </div>
         )

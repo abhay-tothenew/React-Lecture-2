@@ -9,15 +9,12 @@ const Todo = () => {
     setTodo("");
   };
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-        flexDirection: "column",
-      }}
-    >
+    <div style = {{
+        display:'flex',
+        justifyContent:'center',
+        flexDirection:'column',
+        alignItems:'center'
+      }}>
       <h2>Todo List</h2>
       <input
         type="text"
